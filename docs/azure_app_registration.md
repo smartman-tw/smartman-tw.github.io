@@ -37,4 +37,11 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 2. Bundle ID 輸入 com.smartman.smartflow-mobile.ios —> 按下底部的 Configure![alt text](/docs/images/configure_ios.webp)
 3. 將 MSAL Configuration 複製後提供給志元。![alt text](/docs/images/ios_msal_configuration.webp)
 
+## 新增應用程式ID URI
+1. 點擊左側的 "App registrations" > 選擇剛剛建立的 SmartFlow App > 點擊 "Expose an API"![alt text](./images/expose_an_api.png)
+2. 點擊 "Set" 按鈕來設定應用程式 ID URI。內容輸入 `api://{應用程式 ID}`，其中 `{應用程式 ID}` 是您在註冊時獲得的應用程式 ID。
+![alt text](./images/set_application_uri.png)
+3. 點選 Add a scope，Scope name 輸入 `access_as_user`，並填寫其他必要資訊。
+![alt text](./images/add_scope.png)
+4. 最後複製應用程式 ID URI，並提供給志元。![alt text](./images/copy_application_uri.png)
 > [若有任何問題歡迎透過 frank@smartman.com.tw 與我們聯繫](mailto:frank@smartman.com.tw?subject=SmartFlow%20App%20Azure_App_Registration詢問) [(Feel free to contact us if you have any questions through frank@smartman.com.tw)](mailto:frank@smartman.com.tw?subject=SmartFlow%20App%20Azure_App_Registration詢問)
