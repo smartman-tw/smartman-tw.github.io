@@ -1,9 +1,4 @@
 
----
-title: 如何在 Azure App Registrations 建立 SmartFlow App
-layout: default          # ← 一定要指定
----
-
 # 如何在 Azure App Registrations 建立 SmartFlow App 應用程式
 底下資訊將說明如何在 Azure App Registrations 中建立 SmartFlow App 應用程式。
 
