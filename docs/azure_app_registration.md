@@ -13,6 +13,20 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 - 設定重新導向 URI (Redirect URI)
 - 管理 API 權限和 OAuth 設定
 - 實現單一登入 (SSO) 功能
+<!-- Table of contents -->
+
+## 目錄
+- [如何在 Azure App Registrations 建立 SmartFlow App 應用程式](#如何在-azure-app-registrations-建立-smartflow-app-應用程式)
+  - [什麼是 Azure App Registrations?](#什麼是-azure-app-registrations)
+  - [目錄](#目錄)
+  - [登入 Azure Portal](#登入-azure-portal)
+  - [建立新的 registration](#建立新的-registration)
+  - [加入Redirect](#加入redirect)
+  - [新增 Web 平台](#新增-web-平台)
+  - [新增 Android 平台](#新增-android-平台)
+  - [新增 iOS 平台](#新增-ios-平台)
+  - [新增 Certificates \& secrets](#新增-certificates--secrets)
+  - [新增應用程式ID URI](#新增應用程式id-uri)
 
 ## 登入 Azure Portal
 1. 前往 [Azure Portal](https://portal.azure.com/) 並透過管理者資訊登入。
