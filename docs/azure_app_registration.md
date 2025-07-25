@@ -51,10 +51,6 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 2. 複製 secrets Value 到Flow設定 用戶端密碼(秘密)欄位，請注意此秘密欄位只會在當下顯示，後續就不會再顯示，如遺失請重新設定一組![alt text](/docs/images/AddSecrets2.png)
 
 ## 新增應用程式ID URI
-1. 點擊左側的 "App registrations" > 選擇剛剛建立的 SmartFlow App > 點擊 "Expose an API"![alt text](./images/expose_an_api.png)
-2. 點擊 "Set" 按鈕來設定應用程式 ID URI。內容輸入 `api://{應用程式 ID}`，其中 `{應用程式 ID}` 是您在註冊時獲得的應用程式 ID。
-![alt text](./images/set_application_uri.png)
-3. 點選 Add a scope，Scope name 輸入 `access_as_user`，並填寫其他必要資訊。
-![alt text](./images/add_scope.png)
-4. 最後複製應用程式 ID URI，並提供給志元。![alt text](./images/copy_application_uri.png)
+1. 點擊左側的 "Expose an API"，設定應用程式 ID URI。內容輸入 `api://{應用程式 ID}`，其中 `{應用程式 ID}` 是您在註冊時獲得的應用程式 ID。![alt text](./images/set_application_uri.png)
+2. 點選 Add a scope，Scope name 輸入 `access_as_user`，並填寫其他必要資訊。最後複製應用程式 ID URI，並提供給志元。![alt text](./images/add_scope.png)
 > [若有任何問題歡迎透過 frank@smartman.com.tw 與我們聯繫](mailto:frank@smartman.com.tw?subject=SmartFlow%20App%20Azure_App_Registration詢問) [(Feel free to contact us if you have any questions through frank@smartman.com.tw)](mailto:frank@smartman.com.tw?subject=SmartFlow%20App%20Azure_App_Registration詢問)
