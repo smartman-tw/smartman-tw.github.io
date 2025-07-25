@@ -1,0 +1,17 @@
+/* 讓 h2 與下一個區塊形成「卡片」 */
+.markdown-body h2{
+  margin-top:2.5rem;
+}
+
+/* h2 下面第一個兄弟元素加框 */
+.markdown-body h2 + *{
+  background:#f9fafc;
+  border:1px solid #e1e4e8;
+  padding:1.25rem 1.5rem;
+  border-radius:8px;
+}
+
+/* 讓同一區段內其餘元素視覺上貼近 */
+.markdown-body h2 + * > *{
+  margin-top:0.6rem;
+}
