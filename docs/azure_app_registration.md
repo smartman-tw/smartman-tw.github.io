@@ -9,7 +9,7 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 
 透過 App Registrations，開發者可以：
 
-- 建立應用程式身份，獲取唯一的 Client ID 與 Client Secret
+- 建立應用程式身份，獲取唯一的 Client ID 與 Client Secret 和 Tenant ID
 - 定義應用程式所需的權限範圍 (Scope)
 - 設定重新導向 URI (Redirect URI)
 - 管理 API 權限和 OAuth 設定
@@ -23,11 +23,19 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 2. Name欄位輸入 SmartFlow App —> 按下最底部註冊 (Register)
 (Supported account types可依照需求選擇，Redirect URL 先不需要填寫)![alt text](/docs/images/register_app.webp)
 > 請依照貴司組織規則設定 Supported account types
+3. Client ID 和 Tenant ID 複製下來，後續Flow後台設定貼上使用。
+> 分別對應Flow的 應用程式(用戶端)識別碼 和 目錄(租用戶)識別碼
+> Flow設定頁面參考![alt text](/docs/images/FlowSet.png)
 
-## 加入平台
+## 加入Redirect
 1. 點 Overview > 前往 Redirect URIs 設定頁面![alt text](/docs/images/redirect_uris.webp)
-2. 按新增平台 (Add a platform)![alt text](/docs/images/add_platform.webp)
+2. 按新增Add Redirect URI ![alt text](/docs/images/AddRedirectURL.png)
 
+## 新增 Web 平台
+1. 選擇 Web![alt text](/docs/images/AddRedirectURLWeb.png)
+2. 新增Flow設定頁面內的兩組URL進入![alt text](/docs/images/AddRedirectURLWeb2.png)
+> Flow設定頁面內的  重新導向URI 1 和 重新導向URI 2
+   
 ## 新增 Android 平台
 1. 選擇 Android![alt text](/docs/images/android_platform.webp)
 2. Package name 輸入 `com.smartman.smartflow_mobile`—> Signature hash 輸入志元提供給您的雜湊簽章字串 —> 最後按下 Configure![alt text](/docs/images/configure_android.webp)
@@ -37,6 +45,11 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 1. 選擇 iOS![alt text](/docs/images/ios_platform.webp)
 2. Bundle ID 輸入 com.smartman.smartflow-mobile.ios —> 按下底部的 Configure![alt text](/docs/images/configure_ios.webp)
 3. 將 MSAL Configuration 複製後提供給志元。![alt text](/docs/images/ios_msal_configuration.webp)
+
+## 新增 Certificates & secrets
+1. 新增 secrets![alt text](/docs/images/AddSecrets.png)
+   > 使用期限依公司規範設定，但每次過期更新設定，Flow設定完成後，需要重啟IIS或AP主機重新開機
+2. 複製 secrets Value 到Flow設定 用戶端密碼(秘密)欄位，請注意此秘密欄位只會在當下顯示，後續就不會再顯示，如遺失請重新設定一組![alt text](/docs/images/AddSecrets2.png)
 
 ## 新增應用程式ID URI
 1. 點擊左側的 "App registrations" > 選擇剛剛建立的 SmartFlow App > 點擊 "Expose an API"![alt text](./images/expose_an_api.png)
