@@ -2,7 +2,6 @@
 # 如何在 Azure App Registrations 建立 SmartFlow App 應用程式
 底下資訊將說明如何在 Azure App Registrations 中建立 SmartFlow App 應用程式。
 
-Last updated on July, 16, 2025 by Frank Huang.
 ## 什麼是 Azure App Registrations?
 
 Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項功能，讓開發者可以將他們的應用程式註冊到 Azure AD 租戶中。這允許應用程式使用 Azure AD 的驗證和授權服務，使用者可以透過其 Microsoft 帳戶進行身份驗證。

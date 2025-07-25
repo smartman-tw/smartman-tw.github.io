@@ -1,5 +1,4 @@
 # 如何使用雙重驗證? (SmartFlow)
-Last updated on July, 16, 2025 by Frank Huang.
 
 ### 雙重驗證是什麼?
 

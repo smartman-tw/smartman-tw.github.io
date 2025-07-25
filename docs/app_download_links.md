@@ -1,5 +1,4 @@
 # SmartFlow App 下載連結 (Download Links)
-Last updated om July 16, 2025 by Frank Huang.
 # Android
 
 皆可從 Google Play 與 URL 取得 (Available both from Google Play and URL)
