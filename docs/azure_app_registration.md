@@ -37,12 +37,12 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
    
 ## 新增 Android 平台
 1. 選擇 Android![alt text](/docs/images/android_platform.webp)
-2. Package name 輸入 `com.smartman.smartflow_mobile`—> Signature hash 輸入志元提供給您的雜湊簽章字串 —> 最後按下 Configure![alt text](/docs/images/configure_android.webp)
+2. Package name 輸入 `com.smartman.smartflow_mobile`—> Signature hash 輸入志元提供給您的雜湊簽章字串 —> 最後按下 Configure![alt text](./images/configure_android.png)
 3. 建立完成後請將MSAL Configuration的JSON格式資料提供給志元。![alt text](/docs/images/msal_configuration.webp)
 
 ## 新增 iOS 平台
 1. 選擇 iOS![alt text](/docs/images/ios_platform.webp)
-2. Bundle ID 輸入 com.smartman.smartflow-mobile.ios —> 按下底部的 Configure![alt text](/docs/images/configure_ios.webp)
+2. Bundle ID 輸入 `com.smartman.smartflow-mobile.ios` —> 按下底部的 Configure![alt text](./images/configure_ios.png)
 3. 將 MSAL Configuration 複製後提供給志元。![alt text](/docs/images/ios_msal_configuration.webp)
 
 ## 新增 Certificates & secrets
