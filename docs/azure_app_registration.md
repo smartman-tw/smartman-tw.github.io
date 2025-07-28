@@ -36,9 +36,9 @@ Azure App Registrations 是 Microsoft Azure Active Directory (AD) 中的一項�
 2. Name欄位輸入 SmartFlow App —> 按下最底部註冊 (Register)
 (Supported account types可依照需求選擇，Redirect URL 先不需要填寫)![alt text](/docs/images/register_app.webp)
 > 請依照貴司組織規則設定 Supported account types
-3. Client ID 和 Tenant ID 複製下來，後續Flow後台設定貼上使用。
-> 分別對應Flow的 應用程式(用戶端)識別碼 和 目錄(租用戶)識別碼
-> Flow設定頁面參考![alt text](/docs/images/FlowSet.png)
+3. Client ID 和 Tenant ID 複製下來，後續SmartFlow後台設定貼上使用。
+> 分別對應SmartFlow的 應用程式(用戶端)識別碼 和 目錄(租用戶)識別碼
+> SmartFlow設定頁面參考![alt text](/docs/images/FlowSet.png)
 
 ## 加入Redirect
 1. 點 Overview > 前往 Redirect URIs 設定頁面![alt text](/docs/images/redirect_uris.webp)
